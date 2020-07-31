@@ -9,7 +9,7 @@ public class Main {
 
 	private static String texto = "%s km/l";
 	
-	private static Scanner in = new Scanner(System.in);
+	private static Scanner entrada = new Scanner(System.in);
 	
 	public static void main(String[] args) throws IOException {
 		BigDecimal distancia = obterNumero();
@@ -18,7 +18,7 @@ public class Main {
 	}
 	
 	public static BigDecimal obterNumero() {
-		return in.nextBigDecimal();
+		return entrada.nextBigDecimal();
 	}
 	
 	public static void exibirResultado(BigDecimal consumo) {
